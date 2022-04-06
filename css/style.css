@@ -1,0 +1,221 @@
+body{
+    background-color: #FEFCF7;
+}
+.wrapper-header{
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto ;
+    justify-content: space-between;
+}
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.logo__link {
+    position:relative;
+    margin-left: 40px;
+    width: 203px;
+    height: 24px;
+}
+.logo__link::before{
+    content: "";
+    background-image: url(../img/Shape.svg);
+    background-size: cover;
+    position: absolute;
+    margin-left: -35px;
+    width: 24px;
+    height: 24px;
+}
+.site-nav__list {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+.site-nav__item-link{
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0;
+    margin-left: 32px;
+    color: #83888F;
+}
+.container {
+    width: 1110px;
+   
+    align-items: center;
+    margin: 0 auto ;
+    padding: 0;
+}
+
+.wrapper-about {
+    background-image: url(../img/Bitmap.jpg);
+    background-size: cover;
+    margin-left: -80px;
+    border-radius: 10px;
+    width: 1280px;
+    height: 600px;
+   }
+.wrapper-about__content {
+    width: 493px;
+    margin: 0px;
+    padding-bottom: 32px;
+    padding-top: 117px;
+    margin-left: 86px;
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+.wrapper-about__text {
+    width: 445px;
+    margin: 0px;
+    margin-bottom: 56px;
+    margin-left: 86px;
+    color: #FEFCF7;
+
+}
+.wrapper-about-link {
+    text-decoration: none;
+    margin-left: 86px;
+    margin-bottom: 116px;
+    padding: 16px 31px;
+    background-color: #0E8784;
+    color: #FEFCF7;
+    border-radius: 6px;
+}
+.services-list {
+    justify-content: center;
+    list-style: none;
+  
+    display: flex;
+
+}
+.services-list__item{
+    margin: 0 ;
+    text-align: center;
+    width: 255px;
+    padding-left: 30px;
+    padding-top: 95px;
+    
+}
+.services-list__item:nth-child(1){
+   margin-left: -30px;
+}
+.services-list__content {
+    margin: 0;
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    padding-bottom: 24px;
+}
+.services-list__text {
+    width: 255px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    margin-bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper {
+    background-image: url(../img/Bit.png);
+    background-repeat: no-repeat;
+    width: 1280px;
+    margin-left: -80px;
+    
+}
+.wrapper-content {
+    margin: 0;
+    text-align: center;
+}
+.content-item {
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    color: #FEFCF7;
+
+}
+.content-text {
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 86px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+.services-list--item{
+    justify-content: center;
+    list-style: none;
+  
+    display: flex;
+    
+}
+.services-list__item--child {
+    margin: 0px ;
+    text-align: center;
+    background-color: #0E8784;
+    width: 350px;
+    padding-left: 30px;
+    margin-bottom: 200px;
+    margin-left: 30px;
+    
+}
+.services-list__item--child:nth-child(1){
+    margin-left:-40px;
+}
+.services-list__text--item {
+    width: 255px;
+    padding: 0px 48px 48px 47px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+.services-list__content--child{
+    padding-top: 56px;
+    margin-bottom: 24px;
+}
+.wrapper-footer{
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto ;
+    
+    background-color: #2C343E;
+}
